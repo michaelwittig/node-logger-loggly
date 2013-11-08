@@ -1,0 +1,44 @@
+{
+	"name": "cinovo-logger-loggly",
+	"version": "0.4.0",
+	"description": "Loggly endpoint for cinovo-logger.",
+	"keywords": [
+		"logger",
+		"Loggly"
+	],
+	"author": {
+		"name": "Michael Wittig",
+		"email": "michael.wittig@cinovo.de"
+	},
+	"contributors": [],
+	"licenses": [{
+		"type": "Apache License, Version 2.0",
+		"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+	}],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cinovo/node-logger-loggly.git"
+	},
+	"dependencies": {
+		"cinovo-logger-lib": ">=0.4.3 <0.5.0",
+		"request": "2.27.0",
+		"assert-plus": "0.1.4"
+	},
+	"devDependencies": {
+		"mocha": "1.13.0",
+		"jslint": "0.2.0",
+		"madge": "0.1.7",
+		"npmedge": "0.1.4"
+	},
+	"main": "index",
+	"engines": {
+		"node": ">= 0.6.0"
+	},
+	"scripts": {
+		"test": "make test"
+	},
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/cinovo/node-logger-loggly/issues"
+	}
+}
