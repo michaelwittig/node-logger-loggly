@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-loggly",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "Loggly endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",

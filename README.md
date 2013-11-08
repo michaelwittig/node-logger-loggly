@@ -52,7 +52,7 @@ Now you can log to [Loggly](http://www.loggly.com) endpoint.
 
 ## API
 
-### (debug, info, error, critial)
+### (debug, info, error, critial, customerToken[, tags])
 
 Sync creates a Notification Center Endpoint.
 
