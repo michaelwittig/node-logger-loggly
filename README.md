@@ -10,6 +10,8 @@
                                                                       \_/__/  \_/__/
 `````
 
+[![NPM version](https://badge.fury.io/js/cinovo-logger-loggly.png)](http://badge.fury.io/js/cinovo-logger-loggly)
+
 # cinovo-logger-loggly
 
 [Loggly](http://www.loggly.com) endpoint for [cinovo-logger](https://github.com/cinovo/node-logger).
