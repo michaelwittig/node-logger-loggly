@@ -19,7 +19,10 @@ LogglyEndpoint.prototype._log = function(log, callback) {
 	request({
 		"uri": this.uri,
 		"method": "POST",
-		"json": log
+		"body": lib.safejson(log),
+		"headers": {
+			"Content-type": "application/json"
+		}
 	}, function (err, res) {
 		if (err) {
 			callback(err);
