@@ -1,6 +1,7 @@
 var endpoint = require("../index");
 
-describe("API", function(){
+describe("API", function() {
+	"use strict";
 	describe("()", function() {
 		it("should work without tags", function(){
 			endpoint(true, true, true, true, "test");

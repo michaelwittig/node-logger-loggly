@@ -1,6 +1,9 @@
 var endpoint = require("../index");
 
-describe("loggly", function(){
+var LOGGLY_CUSTOMER_TOKEN = "XXX";
+
+describe("loggly", function() {
+	"use strict";
 	describe("debug()", function() {
 		it("should work with level and message", function(done) {
 			var log = {
@@ -10,7 +13,7 @@ describe("loggly", function(){
 				origin: "origin",
 				message: "message"
 			};
-			endpoint(true, true, true, true, "xxx", ["test"]).log(log, function(err) {
+			endpoint(true, true, true, true, LOGGLY_CUSTOMER_TOKEN, ["test"]).log(log, function(err) {
 				if (err) {
 					throw err;
 				}
