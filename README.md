@@ -11,6 +11,7 @@
 `````
 
 [![NPM version](https://badge.fury.io/js/cinovo-logger-loggly.png)](http://badge.fury.io/js/cinovo-logger-loggly)
+[![NPM dependencies](https://david-dm.org/cinovo/node-logger-loggly.png)](https://david-dm.org/cinovo/node-logger-loggly)
 
 # cinovo-logger-loggly
 
