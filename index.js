@@ -1,7 +1,10 @@
 var util = require("util"),
 	request = require("request"),
 	lib = require("cinovo-logger-lib"),
-	assert = require("assert-plus");
+	assert = require("assert-plus"),
+	safeobj = require("./lib/safeobj");
+
+
 
 function LogglyEndpoint(debug, info, error, critial, customerToken, tags) {
 	"use strict";
@@ -21,7 +24,7 @@ LogglyEndpoint.prototype._log = function(log, callback) {
 	request({
 		"uri": this.uri,
 		"method": "POST",
-		"body": lib.safejson(log),
+		"body": lib.safejson(safeobj(log, {"message": "msg"})),
 		"headers": {
 			"Content-type": "application/json"
 		},
