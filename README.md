@@ -11,11 +11,11 @@
 `````
 
 [![NPM version](https://badge.fury.io/js/cinovo-logger-loggly.png)](http://badge.fury.io/js/cinovo-logger-loggly)
-[![NPM dependencies](https://david-dm.org/cinovo/node-logger-loggly.png)](https://david-dm.org/cinovo/node-logger-loggly)
+[![NPM dependencies](https://david-dm.org/michaelwittig/node-logger-loggly.png)](https://david-dm.org/michaelwittig/node-logger-loggly)
 
 # cinovo-logger-loggly
 
-[Loggly](http://www.loggly.com) endpoint for [cinovo-logger](https://github.com/cinovo/node-logger).
+[Loggly](http://www.loggly.com) endpoint for [cinovo-logger](https://github.com/michaelwittig/node-logger).
 
 ## Getting started
 
