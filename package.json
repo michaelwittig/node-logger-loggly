@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-loggly",
-	"version": "0.4.6",
+	"version": "0.4.7",
 	"description": "Loggly endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",
@@ -18,14 +18,14 @@
 	},
 	"dependencies": {
 		"cinovo-logger-lib": "0.4.5",
-		"request": "2.40.0",
-		"assert-plus": "0.1.5"
+		"request": "2.83.0",
+		"assert-plus": "1.0.0"
 	},
 	"devDependencies": {
-		"mocha": "1.18.2",
-		"jslint": "0.3.3",
-		"madge": "0.2.0",
-		"npmedge": "0.1.5"
+		"mocha": "4.0.1",
+		"jslint": "0.11.0",
+		"madge": "2.2.0",
+		"npmedge": "0.2.2"
 	},
 	"main": "index",
 	"engines": {
