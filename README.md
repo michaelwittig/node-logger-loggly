@@ -12,6 +12,7 @@
 
 [![NPM version](https://badge.fury.io/js/cinovo-logger-loggly.png)](http://badge.fury.io/js/cinovo-logger-loggly)
 [![NPM dependencies](https://david-dm.org/michaelwittig/node-logger-loggly.png)](https://david-dm.org/michaelwittig/node-logger-loggly)
+[![NSP Status](https://nodesecurity.io/orgs/michaelwittig/projects/2054d04d-ecdc-43b5-bde8-fed3888ff03f/badge)](https://nodesecurity.io/orgs/michaelwittig/projects/2054d04d-ecdc-43b5-bde8-fed3888ff03f)
 
 # cinovo-logger-loggly
 
